@@ -1,0 +1,54 @@
+                                                CSS Terminology
+CSS (Cascading Stile Sheeps) - change the appearance of HTML Elements
+CSS Selector - which elements we are targeting
+Pseudo-class - additional styles on interacting
+CSS Box Model - how much space an element takes up and how far it is away from other elements   *f12 on needing web-page, clik on needing element, tab "Computed"
+CSS Specificity - property priority. The selector that is more specific has higher priority (class name selector > element name selector)
+
+                                                CSS Syntax Rules
+<style>
+    button {
+        background-color: red;
+    }
+</style>
+    button - CSS Selector    *in exp - everithing buttons on the web-page
+    {} - !important!
+    background-color - CSS Property
+    red - CSS Value 
+    : - to separate a Property from a Value
+
+<style>
+    .specialclassname {}
+</style>
+    .specialclassname - selected an element on the web-page with the name "specialclassname"
+
+<style>
+.button:hover {}
+.button:active {}
+</style>
+:hover :active : - Pseudo-class
+:hover - additional styles on hover
+:active - additional styles on click
+
+                                                CSS Property
+margin-right: 0px; - indent to the right on the element
+transition: opacity 0s; - smooth transition 
+    "opacity" - certain CSS Property
+    0 - time tranisition 
+box-shadow: 1px 2px 3px black;
+    1px - right
+    2px - down
+    3px - blur
+    "black" - needing color    *rgba(0, 0, 0, 0)
+{
+margin: auto;          -center buttom
+display: block;
+}
+
+                                                CSS Property for text
+font-size - size
+font-weight - weight (exp. bold)
+font-family - font (exp. TimesNewRoman)
+text-decoration: underline;
+text-align: center;
+line-height: 24px;

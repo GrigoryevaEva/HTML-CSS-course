@@ -1,0 +1,39 @@
+                                                HTML Terminology
+
+HTML Element - a element displayed on a web-page (exp. button)
+Syntax - rules for writting code (exp. <></>)
+HTML Attribute - modifies how a element behaves (exp. <a href="">) *Every HTML element has its own attributes
+Indet - in TAB
+HTML Entity - object in text (exp. · , ✓)
+Text Element - element that is incide a line of text
+
+                                                HTML Elements
+<p> - paragraph   *by default, come with margin at the top and bottom
+<a> - anchor element (link to another website)
+    attributes:
+        href="" - for url website
+        target="" - purpose (exp. open an new web-page - target="_blank")
+<button> - button
+    attributes:
+        class="" - give a special name for button
+<Style> - for change HTML with the help CSS
+     
+
+*<br> - line break (not need to close)
+
+                                                HTML Syntax rules
+<></> - two HTML tag
+<> - oppening tag
+</> - closing tag
+Extra spaces are inored (in HTML!)
+Extra new lines are ignored (in HTML!)
+
+                                                HTML Attribute rules
+<a href=""> - HTML attribute      *not necessary one *necessary whitespace between them
+href - attribute name
+"" - attrubute value
+
+                                                Text Elements
+<p>
+    Shop early for the <strong>best selection</strong> of <u>holiday</u> favourites. <span>Shop now &#62</span>
+</p>
