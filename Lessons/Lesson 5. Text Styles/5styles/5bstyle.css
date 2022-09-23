@@ -1,0 +1,17 @@
+p {
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.news {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.end {
+    font-size: 21px;
+    color: red;
+    font-style: italic;
+}

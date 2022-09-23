@@ -6,6 +6,10 @@ HTML Attribute - modifies how a element behaves (exp. <a href="">) *Every HTML e
 Indet - in TAB
 HTML Entity - object in text (exp. · , ✓)
 Text Element - element that is incide a line of text
+Nesting - element inside other element (exp. <html><head></head></html>)
+Void Elements - don't need a closing tag
+Filepaths - hrev="folder1/folder2/file.code"
+
 
                                                 HTML Elements
 <p> - paragraph   *by default, come with margin at the top and bottom
@@ -17,9 +21,22 @@ Text Element - element that is incide a line of text
     attributes:
         class="" - give a special name for button
 <Style> - for change HTML with the help CSS
-     
+<img> - for image
+    attributes:
+        src="" 
+    specific css:
+        width and height - 1/2 image save shape; 2/2 image deform
+        object-fit: cover; - image cut to the parameters (width and height)
+            + object-position: right, left;  *defolt - center
+        object-fit: contain; - reduces the image to parameters, leaving empty fields
+            + object-position: top, bottom;  *defolt - center
+<input>
+    attribute:
+        type="text" - line to fill in
+        type="checkbox" - checkbox
+        placeholder="" - exp. for window search
 
-*<br> - line break (not need to close)
+<br> - line break - void elements
 
                                                 HTML Syntax rules
 <></> - two HTML tag
@@ -28,6 +45,16 @@ Text Element - element that is incide a line of text
 Extra spaces are inored (in HTML!)
 Extra new lines are ignored (in HTML!)
 
+                                                HTML Structure
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body></body>
+</html>
+
+<head> inside <html> - Nesting
+<html> - a web page   *Every file has only one <html>
+<body> - contains all elements that are visible
                                                 HTML Attribute rules
 <a href=""> - HTML attribute      *not necessary one *necessary whitespace between them
 href - attribute name
