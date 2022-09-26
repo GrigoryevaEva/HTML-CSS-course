@@ -12,6 +12,11 @@ Filepaths - hrev="folder1/folder2/file.code"
 
 
                                                 HTML Elements
+In HTML there 3 types elements:
+    1. Block element = takes up the entire line (exp. <p>)
+    2. Inline-block element = only takes up as much space as needed (exp. <img>, <input>)
+    3. Inline element = appear ithin a line of text (exp. <strong>)
+
 <p> - paragraph   *by default, come with margin at the top and bottom
 <a> - anchor element (link to another website)
     attributes:

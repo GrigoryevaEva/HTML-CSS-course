@@ -4,6 +4,7 @@ CSS Selector - which elements we are targeting
 Pseudo-class - additional styles on interacting
 CSS Box Model - how much space an element takes up and how far it is away from other elements   *f12 on needing web-page, clik on needing element, tab "Computed"
 CSS Specificity - property priority. The selector that is more specific has higher priority (class name selector > element name selector)
+Display Property - css property, with save witch you can switch type special element
 
                                                 CSS Syntax Rules
 <style>
@@ -30,6 +31,10 @@ CSS Specificity - property priority. The selector that is more specific has high
 :hover - additional styles on hover
 :active - additional styles on click
 
+<style>
+.meow,
+.cat {} - style for 2 special elements
+
                                                 CSS Property
 margin-right: 0px; - indent to the right on the element
 transition: opacity 0s; - smooth transition 
@@ -40,10 +45,8 @@ box-shadow: 1px 2px 3px black;
     2px - down
     3px - blur
     "black" - needing color    *rgba(0, 0, 0, 0)
-{
-margin: auto;          -center buttom
-display: block;
-}
+
+    display: block; inline block; - Display Property
 
                                                 CSS Property for text
 font-size - size
