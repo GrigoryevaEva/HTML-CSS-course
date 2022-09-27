@@ -5,34 +5,60 @@
         <title>Youtube clone</title>
         <style>
             .thumbnail {
-                width: 300px;
                 display: block;
+                width: 300px;
             }
             
             .search-bar {
-                font-size: 20px;
+                display: block;
             }
 
             .video-title {
                 width: 300px;
             }
+
+            .video-preview {
+                display: inline-block;
+                width: 300px;
+                vertical-align: top;
+                margin-right: 15px;
+            }
         </style>
-        <style></style>
     </head>
     <body>
         <input class="search-bar" type="text" placeholder="Search">
 
-        <img class="thumbnail" src="image-for-youtube/thumbnail-1.webp">
+        <div class="video-preview">
 
-        <p class="video-title">
-            Talking Tech and AI ith Google CEO Sundar Pichai!
-        </p>
-        <p class="video-author">
-            Marques Brownlee
-        </p>
-        <p class="video-stats">
-            3.4M views &middot; 6 months ago
-        </p>
+            <img class="thumbnail" src="image-for-youtube/thumbnail-1.webp">
+
+            <p class="video-title">
+                Talking Tech and AI ith Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+                Marques Brownlee
+            </p>
+            <p class="video-stats">
+                3.4M views &middot; 6 months ago
+            </p>
+
+        </div>
+
+        <div class="video-preview">
+
+            <img class="thumbnail" src="image-for-youtube/markiplier.webp">
+
+            <p class="video-title">
+                Try Not To Laugh Challenge #9
+            </p>
+            <p class="video-author">
+                Markiplier
+            </p>
+            <p class="video-stats">
+                19M views &middot; 4 years ago
+            </p>
+
+        </div>
     </body>
 </html>
 
