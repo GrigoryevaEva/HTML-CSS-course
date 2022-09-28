@@ -55,3 +55,5 @@ font-family - font (exp. TimesNewRoman)
 text-decoration: underline;
 text-align: center;
 line-height: 24px;
+vertical-align: middle; - align objects in the middle
+outline: none; - remove <input> text border

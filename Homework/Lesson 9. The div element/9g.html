@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Social Network</title>
+        <style>
+            .box-account {
+                display: inline-block;
+                margin-top: 10px;
+                margin-left: 15px;
+                margin-bottom: 10px;
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.408);
+                transition: margin-top 0.15s, margin-left 0.15s;
+            }
+
+            .box-account-information {
+                padding-top: 8px;
+                padding-bottom: 7px;
+                padding-left: 7px;
+                padding-right: 7px;
+            }
+
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            img {
+                display: block;
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                object-position: top;
+                transition: width 0.15s, height 0.15s;
+            }
+
+            .name {
+                font-size: 16px;
+                font-weight: bold;
+                margin-bottom: 2px;
+            }
+
+            .mutual-friends {
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+
+            .button-add {
+                background-color: rgb(29, 120, 240);
+                color: white;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 20px;
+                padding-right: 20px;
+                transition: background-color 0.15s;
+            }
+
+            .button-add:hover {
+                background-color: rgba(29, 120, 240, 0.794);
+            }
+
+            .button-add:active {
+                background-color: rgba(29, 120, 240, 0.545);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box-account">
+            <img src="Oliver.jpg">
+            <div class="box-account-information">
+                <p class="name">Oliver</p>
+                <p class="mutual-friends">2 mutual friends</p>
+                <button class="button-add">Add Friend</button>
+            </div>
+        </div>
+
+        <div class="box-account">
+            <img src="Jack.jpg">
+            <div class="box-account-information">
+                <p class="name">Jack</p>
+                <p class="mutual-friends">3 mutual friends</p>
+                <button class="button-add">Add Friend</button>
+            </div>
+        </div>
+
+        <div class="box-account">
+            <img src="Prince.jpg">
+            <div class="box-account-information">
+                <p class="name">Prince</p>
+                <p class="mutual-friends">4 mutual friends</p>
+                <button class="button-add">Add Friend</button>
+            </div>
+        </div>
+    </body>
+</html>
