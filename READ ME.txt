@@ -1,0 +1,3 @@
+This repository displays my training in a free HTML and CSS course from SuperSimpleDev.
+
+Thank you for your interest.
