@@ -10,6 +10,11 @@ Nesting - element inside other element (exp. <html><head></head></html>)
 Void Elements - don't need a closing tag
 Filepaths - hrev="folder1/folder2/file.code"
 
+Nesyed Layouts Technique - see image "NLT" in folder "html-css-course"
+    Two types layout:
+        1. Vertical Layout - elemets are located under each other
+        2. Horizontal Layout - elements are located on the sides of each other
+
 
                                                 HTML Elements
 In HTML there 3 types elements:

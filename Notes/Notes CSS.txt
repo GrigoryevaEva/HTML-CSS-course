@@ -5,6 +5,7 @@ Pseudo-class - additional styles on interacting
 CSS Box Model - how much space an element takes up and how far it is away from other elements   *f12 on needing web-page, clik on needing element, tab "Computed"
 CSS Specificity - property priority. The selector that is more specific has higher priority (class name selector > element name selector)
 Display Property - css property, with save witch you can switch type special element
+Font stack - backup font
 
                                                 CSS Syntax Rules
 <style>
@@ -52,6 +53,7 @@ box-shadow: 1px 2px 3px black;
 font-size - size
 font-weight - weight (exp. bold)
 font-family - font (exp. TimesNewRoman)
+        font-family: roboto, arial; - font stack
 text-decoration: underline;
 text-align: center;
 line-height: 24px;
