@@ -6,6 +6,7 @@ CSS Box Model - how much space an element takes up and how far it is away from o
 CSS Specificity - property priority. The selector that is more specific has higher priority (class name selector > element name selector)
 Display Property - css property, with save witch you can switch type special element
 Font stack - backup font
+CSS Grid - layout that has rows and columns (fixes the distance problem between <div>; simplifies alignment of multiple <div>)
 
                                                 CSS Syntax Rules
 <style>
@@ -59,3 +60,10 @@ text-align: center;
 line-height: 24px;
 vertical-align: middle; - align objects in the middle
 outline: none; - remove <input> text border
+
+                                                CSS Grid
+display: grid;
+grid-template-columns: 1px 2px... 5px 1fr;
+    1px - width 1 column
+    2px - width 2 column...
+    1fr - special value in grid (fr - free space) - this column will take up the remaining space in the row as a block

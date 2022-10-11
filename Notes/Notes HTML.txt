@@ -24,6 +24,8 @@ In HTML there 3 types elements:
 
 <div> - division - "just a box" *defolt block element
     <div> can contain other elements - <div> = containers
+        attributes:
+        style: ; - inline style
 
 <p> - paragraph   *by default, come with margin at the top and bottom
 <a> - anchor element (link to another website)
@@ -77,3 +79,4 @@ href - attribute name
 <p>
     Shop early for the <strong>best selection</strong> of <u>holiday</u> favourites. <span>Shop now &#62</span>
 </p>
+
