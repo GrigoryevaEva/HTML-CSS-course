@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <style>
+
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .grid {
+                display: grid;
+                grid-template-columns: 200px 200px 200px;
+                column-gap: 20px;
+            }
+
+            .profile {
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.408);
+            }
+
+            .picture {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                object-position: top;
+            }
+
+            .profile-info {
+                padding-top: 8px;
+                padding-bottom: 7px;
+                padding-left: 7px;
+                padding-right: 7px;
+            }
+
+            .name {
+                font-size: 16px;
+                font-weight: bold;
+                margin-bottom: 4px;
+            }
+
+            .mutual-friends-info {
+                display: grid;
+                grid-template-columns: 24px 1fr;
+                column-gap: 5px;
+                align-items: center;
+                margin-bottom: 7px;
+            }
+
+            .mutual-friends-picture {
+                vertical-align: middle;
+                width: 100%;
+                height: 24px;
+                border-radius: 12px;
+            }
+
+            .mutual-friends {
+                color: gray;
+                font-size: 14px;
+            }
+
+            .button-add-friend {
+                background-color: rgb(29, 120, 240);
+                color: white;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+                padding-top: 9px;
+                padding-bottom: 9px;
+                padding-left: 18px;
+                padding-right: 18px;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <div class="grid">
+            <div class="profile">
+                <div>
+                    <img class="picture" src="Oliver.jpg">
+                </div>
+
+                <div class="profile-info">
+    
+                    <p class="name">
+                        Oliver
+                    </p>
+        
+                    <div class="mutual-friends-info">
+                        <div>
+
+                            <img class="mutual-friends-picture" src="cat.jpg">
+
+                        </div>
+                        <div>
+
+                            <p class="mutual-friends">
+                                2 mutual friends
+                            </p>
+
+                        </div>
+                    </div>
+        
+                    <button class="button-add-friend">
+                        Add Friend
+                    </button>
+    
+                </div>
+            </div>
+    
+            <div class="profile">
+                <div>
+                    <img class="picture" src="Prince.jpg">
+                </div>
+
+                <div class="profile-info">
+    
+                    <p class="name">
+                        Prince
+                    </p>
+        
+                    <div class="mutual-friends-info">
+        
+                        <img class="mutual-friends-picture" src="cat.jpg">
+        
+                        <p class="mutual-friends">
+                                3 mutual friends
+                        </p>
+        
+                    </div>
+        
+                    <button class="button-add-friend">
+                        Add Friend
+                    </button>
+    
+                </div>
+            </div>
+    
+            <div class="profile">
+                <div>
+                    <img class="picture" src="Jack.jpg">
+                </div>
+
+                <div class="profile-info">
+    
+                    <p class="name">
+                        Jack
+                    </p>
+        
+                    <div class="mutual-friends-info">
+        
+                        <img class="mutual-friends-picture" src="cat.jpg">
+        
+                        <p class="mutual-friends">
+                                4 mutual friends
+                        </p>
+        
+                    </div>
+        
+                    <button class="button-add-friend">
+                        Add Friend
+                    </button>
+    
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
