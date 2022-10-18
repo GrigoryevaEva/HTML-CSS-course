@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 55px;
+}
+
+.left-section {
+    width: 150px;
+}
+
+.middle-section {
+    flex: 1;
+    max-width: 500px;
+    margin-left: 70px;
+    margin-right: 35px;
+}
+
+.right-section {
+    width: 200px;
+}

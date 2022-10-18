@@ -7,6 +7,9 @@ CSS Specificity - property priority. The selector that is more specific has high
 Display Property - css property, with save witch you can switch type special element
 Font stack - backup font
 CSS Grid - layout that has rows and columns (fixes the distance problem between <div>; simplifies alignment of multiple <div>)
+Flexbox - (is similar to CSS Grid, but it's more flexible)
+    !!! Big different: Grid = rigid layout; Flexbox = flexible layout
+    Flexbox & Grid: Which one to use?
 
                                                 CSS Syntax Rules
 <style>
@@ -67,3 +70,14 @@ grid-template-columns: 1px 2px... 5px 1fr;
     1px - width 1 column
     2px - width 2 column...
     1fr - special value in grid (fr - free space) - this column will take up the remaining space in the row as a block
+column-gap: 0px;
+row-gap: 0px;
+
+                                                CSS Flexbox
+display: flex;
+flex-direction: row; column;
+justify-content: start; - default
+    : end; center;
+    : space-beetwen; - equal space between elements
+align-items: stretch; - default - align vertical
+    : start; end; center;
