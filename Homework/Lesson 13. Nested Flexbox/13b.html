@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+            .general-box {
+                display: grid;
+                grid-template-columns: 100px 200px;
+                height: 50px;
+            }
+
+            .pink {
+                background-color: lightpink;
+            }
+
+            .blue-box {
+                display: flex;
+                flex-direction: column;
+                background-color: lightblue;
+            }
+
+            .row-box {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .row {
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="general-box">
+            <div class="pink"></div>
+            <div class="blue-box">
+                <div>row1</div>
+                <div class="row-box">
+                    <div class="row">row2</div>
+                    <div class="row">row2</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
