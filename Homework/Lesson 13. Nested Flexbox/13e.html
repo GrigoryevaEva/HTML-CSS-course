@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .general-box {
+                display: flex;
+                flex-direction: column;
+                max-width: 305px;
+                min-width: 250px;
+                border: none;
+                border-radius: 4px;
+                box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.269);
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            .heading {
+                color: rgb(95, 95, 95);
+                font-size: 12px;
+                margin-bottom: 15px;
+            }
+
+            .preview-email {
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+
+            .profile-picture {
+                display: flex;
+                align-items: center;
+                margin-right: 7px;
+            }
+
+            .picture {
+                width: 40px;
+                height: 40px;
+                object-fit: cover;
+                border-radius: 20px;
+            }
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .name-time-box,
+            .header-email,
+            .preview-text {
+                flex: 1;
+            }
+
+            .name,
+            .header-email {
+                font-weight: bold;
+            }
+
+            .header-email,
+            .preview-text {
+                font-size: 12px;
+            }
+
+            .time,
+            .preview-text {
+                color: rgb(95, 95, 95)
+            }
+
+            .name-time-box {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .time {
+                font-size: 10px;
+            }
+
+            .header-email {
+                margin-top: 3px;
+                margin-bottom: 2px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="general-box">
+                <p class="heading">
+                    ALL INBOXES
+                </p>
+            <div class="preview-email">
+                <div class="profile-picture">
+                    <img class="picture" src="Jack.jpg">
+                </div>
+                <div class="info">
+                    <div class="name-time-box">
+                        <p class="name">
+                            Chewy Promotions
+                        </p>
+                        <p class="time">
+                            4:58 PM
+                        </p>
+                    </div>
+                    <p class="header-email">
+                        Biggest sales of the year!
+                    </p>
+                    <p class="preview-text">
+                        Hey there! We're writing to tell you about our...
+                    </p>
+                </div>
+            </div>
+
+            <div class="preview-email">
+                <div class="profile-picture">
+                    <img class="picture" src="Oliver.jpg">
+                </div>
+                <div class="info">
+                    <div class="name-time-box">
+                        <p class="name">
+                            Best Buy
+                        </p>
+                        <p class="time">
+                            12:32 PM
+                        </p>
+                    </div>
+                    <p class="header-email">
+                        Your Best Buy eReceipt
+                    </p>
+                    <p class="preview-text">
+                        Thank you for shopping at Best Buy, here is...
+                    </p>
+                </div>
+            </div>
+
+            <div class="preview-email">
+                <div class="profile-picture">
+                    <img class="picture" src="Prince.jpg">
+                </div>
+                <div class="info">
+                    <div class="name-time-box">
+                        <p class="name">
+                            Netflix
+                        </p>
+                        <p class="time">
+                            9:00 AM
+                        </p>
+                    </div>
+                    <p class="header-email">
+                        Here's what's coming soon to Netflix
+                    </p>
+                    <p class="preview-text">
+                        Brand new movies and shows, old favorites...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
