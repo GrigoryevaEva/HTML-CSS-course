@@ -10,6 +10,7 @@ CSS Grid - layout that has rows and columns (fixes the distance problem between 
 Flexbox - (is similar to CSS Grid, but it's more flexible)
     !!! Big different: Grid = rigid layout; Flexbox = flexible layout
     Flexbox & Grid: Which one to use?
+CSS Position - helps to hold the element in a certain place (exp. when scrolling)
 
                                                 CSS Syntax Rules
 <style>
@@ -90,3 +91,14 @@ flex-shrink: 0; - don't shrink
                                                 Search bar CSS
 .classname::placeholder {}
 width: 0; - shrink
+
+                                                CSS Position
+position: static; fixed;
+    static - defoult
+    fixed - fixed and floats over static elements
+top: 0px;
+    0px; - distance from the top of the browser
+        bottom: 0px; right: 0px; left: 0px;
+            !!! if you set opposite directions, the element will stretch
+
+

@@ -2,7 +2,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: white;
     height: 55px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(228, 228, 228);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .left-section {
