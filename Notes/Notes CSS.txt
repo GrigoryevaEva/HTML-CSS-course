@@ -80,6 +80,11 @@ row-gap: 0px;
 
                                                 CSS Flexbox
 display: flex;
+    .div1 {flex: 1;}
+    .div2 {width: 200px}
+        div1, div2 - elents inside Flexbox
+        flex: 1; - stretching in width relative to other elements inside Flexbox
+        width: 200px; - the exact width of the element inside Flexbox
 flex-direction: row; column;
 justify-content: start; - default
     : end; center;
@@ -93,12 +98,19 @@ flex-shrink: 0; - don't shrink
 width: 0; - shrink
 
                                                 CSS Position
-position: static; fixed;
+position: static; fixed; absolute; relative;
     static - defoult
-    fixed - fixed and floats over static elements
+    fixed - fixed and floats over static elements; placed in the !browser window!
+    absolute - similarly "fixed", but placed on the page (picture "position fixed and absolute")
+        the most important feature is the placement of an element inside another element (in the corner of the sidebar, in the corner of the picture).
+    relative - it still displays the element as normal except if we position absolute in here it will position it relative to this element instead of relative to the page
 top: 0px;
     0px; - distance from the top of the browser
         bottom: 0px; right: 0px; left: 0px;
             !!! if you set opposite directions, the element will stretch
-
+z-index: 0; 1; 2;...
+    z-index - determines which element will be in front and which will be behind
+    0 - defoult for all elements
+    1 - elements "0" will be under element "1"
+    2 - elements "0" and "1" will be under element "2"
 

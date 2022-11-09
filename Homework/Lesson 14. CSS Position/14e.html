@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>header facebook</title>
+
+        <style>
+            body {
+                height: 3000px;
+                padding-top: 60px;
+            }
+
+            div,
+            button {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+                font-weight: 700;
+            }
+
+            .header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 60px;
+                background-color: white;
+            }
+
+            .left-section {
+                display: flex;
+                align-items: center;
+                flex: 1;
+                margin-left: 80px;
+            }
+
+            .profile-avatar {
+                height: 40px;
+                width: 40px;
+                object-fit: cover;
+                border-radius: 20px;
+                margin-right: 10px;
+            }
+
+            .right-section {
+                display: flex;
+                justify-content: end;
+                flex: 1;
+                margin-right: 80px;
+            }
+
+            .button-add-friend {
+                background-color: rgb(36, 102, 224);
+                color: white;
+                border: none;
+                border-radius: 4px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-right: 7px;
+            }
+
+            .button-message {
+                background-color: rgb(235, 232, 232);
+                border: none;
+                border-radius: 4px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 18px;
+                padding-right: 18px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="left-section">
+                <img class="profile-avatar" src="Oliver.jpg">
+                <div class="profile-name">
+                    Oliver Cat
+                </div>
+            </div>
+            <div class="right-section">
+                <button class="button-add-friend">
+                    Add Friend
+                </button>
+                <button class="button-message">
+                    Message
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
