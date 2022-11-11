@@ -7,7 +7,7 @@
 
 .thumbnail-row {
     position: relative;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 .thumbnail {
@@ -16,8 +16,8 @@
 
 .video-time {
     position: absolute;
-    bottom: 8px;
-    right: 5px;
+    bottom: 11px;
+    right: 4px;
     background-color: black;
     color: white;
     font-family: roboto, arial;
@@ -32,11 +32,11 @@
 
 .video-info-grid {
     display: grid;
-    grid-template-columns: 50px 1fr;
+    grid-template-columns: 48px 1fr;
 }
 
 .profile-picture {
-    width: 40px;
+    width: 36px;
     border-radius: 20px;
 }
 
@@ -44,7 +44,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 .video-author,
