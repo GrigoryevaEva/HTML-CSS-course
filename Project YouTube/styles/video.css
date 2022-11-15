@@ -40,6 +40,57 @@
     border-radius: 20px;
 }
 
+.profile-card-container {
+    display: flex;
+    position: relative;
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    bottom: -80px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 5px;
+    z-index: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    box-shadow: 1px 0 10px rgba(0, 0, 0, 0.127);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+.profile-card-container:hover .profile-card{
+    opacity: 1;
+}
+
+.profile-card img {
+    width: 54px;
+    border-radius: 27px;
+    margin-right: 5px;
+}
+
+.profile-description {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.profile-name {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.profile-subscribers {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+}
+
 .video-title {
     font-size: 14px;
     font-weight: 500;
