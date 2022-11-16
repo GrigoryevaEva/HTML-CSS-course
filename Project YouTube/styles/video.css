@@ -5,6 +5,24 @@
     row-gap: 40px;
 }
 
+@media (min-width: 1200px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 951px) and (min-width: 1199px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 950px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 .thumbnail-row {
     position: relative;
     margin-bottom: 8px;
@@ -24,10 +42,7 @@
     font-size: 12px;
     font-weight: 500;
     border-radius: 2px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding: 4px;
 }
 
 .video-info-grid {

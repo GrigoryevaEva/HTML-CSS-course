@@ -14,6 +14,7 @@ Nesyed Layouts Technique - see image "NLT" in folder "html-css-course"
     Two types layout:
         1. Vertical Layout - elemets are located under each other
         2. Horizontal Layout - elements are located on the sides of each other
+Semantic Elements - same as <div> (have meaning to screen readers) (exp. <header>, <nav>, <main>, <section>)
 
 
                                                 HTML Elements
@@ -80,3 +81,6 @@ href - attribute name
     Shop early for the <strong>best selection</strong> of <u>holiday</u> favourites. <span>Shop now &#62</span>
 </p>
 
+                                                Comments Syntax
+<!--Hello-->
+{/* Hello */}

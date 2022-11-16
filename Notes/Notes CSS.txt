@@ -11,6 +11,10 @@ Flexbox - (is similar to CSS Grid, but it's more flexible)
     !!! Big different: Grid = rigid layout; Flexbox = flexible layout
     Flexbox & Grid: Which one to use?
 CSS Position - helps to hold the element in a certain place (exp. when scrolling)
+Responsive Design - a design that adapts to the size of the screen
+Media Query - CSS rules that allow you to control the styles of elements depending on the values of the technical parameters of the devices. These are constructions that allow you to determine, based on certain conditions, which styles should be used on a web page and which should not.
+CSS Shorthand Properties - (exp. "padding" instead of "padding-left;right;top;bottom")
+Inheritance
 
                                                 CSS Syntax Rules
 <style>
@@ -57,6 +61,22 @@ box-shadow: *inset* 1px 2px 3px black;
     display: block; inline block; - Display Property
 
 overflow: hidden; - inside div
+
+padding: 1px 2px 3px 4px; - CSS Shorthand Properties
+padding: 5px 10px;
+padding: 15px;
+    1px - top
+    2px - right
+    3px - bottom
+    4px - left
+    5px - top and bottom
+    10px - left and right
+    2px - all sides
+
+border: 1px solid rgb(204, 204, 204);
+    1px - width
+    solid - border style
+    rgb - border color
 
                                                 CSS Property for text
 font-size - size
@@ -113,4 +133,9 @@ z-index: 0; 1; 2;...
     0 - defoult for all elements
     1 - elements "0" will be under element "1"
     2 - elements "0" and "1" will be under element "2"
+
+                                                Media Query Syntax
+
+pointer-events: none;
+white-space: nowrap;
 
