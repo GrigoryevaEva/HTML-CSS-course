@@ -12,3 +12,9 @@ body {
     padding-left: 96px;
     padding-right: 24px;
 }
+
+@media (min-width: 1200px) {
+    body {
+        padding-left: 276px;
+    }
+}

@@ -30,5 +30,25 @@
 
 .sidebar-link div {
     font-size: 10px;
+}
 
+@media (min-width: 1200px) {
+    .sidebar {
+        width: 250px;
+    }
+
+    .sidebar-link {
+        flex-direction: row;
+        justify-content: start;
+        height: 40px;
+    }
+
+    .sidebar-link img {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .sidebar-link div {
+        font-size: 12px;
+    }
 }
